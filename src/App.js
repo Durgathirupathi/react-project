@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Components/navigatin/Header/Header';
+// import '../assets/ionicons.min.css';
+// import 'ionicons/dist/css/ionicons.min.css';
+import React from 'react';
+// import { defineCustomElements } from 'ionicons/dist/loader';
+
+// defineCustomElements(window); 
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+      <Header />
+
   );
 }
 
