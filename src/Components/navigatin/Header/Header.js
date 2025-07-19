@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../../../assets/IDFC-First-Bank-Logo-Vector-1723618448983.jpg";
 import "./header.less"
-import { IoChevronDownCircleOutline } from 'react-icons/io5';
+import { FaAngleDown } from "react-icons/fa";
 
 // import 'ionicons/dist/css/ionicons.min.css';
 
@@ -17,7 +17,7 @@ function Header() {
                         <div className='nav-bar'>
                             <ul className='nav-list'>
                                 <li className='nav-item'>
-                                    Apply <IoChevronDownCircleOutline style={{ color: "#ffffff"}} />
+                                    Apply <FaAngleDown  style={{ color: "#ffffff"}} />
                                 </li>
 
                                 <li className='nav-item'>About the Bank</li>
